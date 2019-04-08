@@ -1,0 +1,131 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body{
+	color: darkslategray;
+	font-size: 18px;
+	background-color: white;
+	font-family: 'Source Sans Pro', sans-serif;
+	text-align: center;
+	
+}
+
+a {
+	text-decoration: none;
+	color: green;
+}
+.logo{
+	font-size:30px;
+	font-family: 'Playfair Display', serif;
+}
+
+#header{
+	background: white;
+	padding: 40px;
+	margin: 40px;
+	
+}
+#header  ol{
+	float: left;
+	color: green;
+	line-height: 33px;
+
+}
+
+#header  ul{
+	float: right
+	
+}
+
+#header ul li{
+	float: left;
+	line-height: 33px;
+}
+
+
+#header ul li a{
+	border-radius: 3px;
+	padding: 10px 20px;
+	border: 1px solid white;
+}
+
+#header ul li a:hover{
+	border: 1px solid green;
+	color: white;
+	background-color:green;
+}
+
+
+#section1{
+	background-image: url("../images/img1.jpg")/*Photo by Maja Kochanowska on Unsplash*/;
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: cover;
+   	padding: 200px 0 250px 0;
+	color: white;
+	font-family: 'Playfair Display', serif;
+	font-weight: bold;
+	font-size: 46px;
+}
+
+#section2{
+	text-align: center;
+	display: inline;
+	
+}
+
+#section2 > h2{
+	font-family: 'Playfair Display', serif;
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+	padding-bottom: 40px;
+	padding-top: 40px;
+}
+#section2 p{
+	text-align: justify;
+}
+
+.flex-container{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: trasparent;
+    flex-direction: row;
+    margin: none;
+    padding: 0;
+}
+
+.flex-container > div{
+	width: 18%;
+    padding: 20px 30px 20px 30px;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.team{
+	width: 400px;
+	height: 250px;
+	float: right;
+	overflow: auto;
+	clear: right;
+	
+}
+
+
+
+#section3{
+	background-color: green;
+	color: white;
+	padding-top: 80px;
+	padding-bottom:80px;
+	font-size: 25px;
+	
+}
+
+
